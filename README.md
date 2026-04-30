@@ -2,7 +2,7 @@
 
 **Sentinel** is an advanced forensic auditing tool designed to move beyond "Black-Box" AI detection. By synthesizing neural texture analysis, spectral frequency fingerprints, and 3D geometric consistency, Sentinel provides a verifiable forensic report for digital media investigations.
 
-## 🚀 Key Features
+## Key Features
 
 * **Multi-Pillar Forensic Audit**:
     * **Neural Engine**: Backbone utilizing **MobileNetV2** for localized artifact and texture-level assessment.
@@ -12,21 +12,21 @@
 * **White-Box Interpretability**: Provides **1D Power Spectrum (Radial Average)** graphs and 3D landmark maps to justify every verdict with mathematical and physical proof.
 * **Forensic Analyst Suite**: A professional-grade UI built with **Gradio** for real-time image auditing and analyst feedback loops.
 
-## 📊 Methodology
+## Methodology
 
 Sentinel utilizes the **Synthetic Reliability Index (SRI)** to aggregate findings:
 1.  **Frequency Analysis**: $LogSpectrum = 20 \cdot \log(|FFT(Image)| + 1)$ targets generative model fingerprints.
 2.  **Geometric Consistency**: Evaluates 3D landmark ratios to identify structural flaws in AI generation.
 3.  **Decision Fusion**: Combines weighted neural scores with a hard veto override for physical paradoxes.
 
-## 📂 Datasets
+## Datasets
 
 The system is trained and validated using:
 * **FFHQ (Flickr-Faces-HQ)**: Authentic high-resolution facial baseline.
 * **GenAI Dataset**: Comprehensive synthetic face collection.
 * **CIFAKE**: Benchmark for explainable identification performance.
 
-## 🛠️ Usage
+## Usage
 
 ```bash
 # Install dependencies
